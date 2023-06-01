@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css"> 
+</head>
+<body  class="img-fluid" style="  background-image: url(/img/Sem\ Título-1.png);">
+    <div class="border; flex" style=" margin-left: 55%; margin-right: 10%; margin-top:3%; margin-bottom:3%  ; padding: 3%; background-color: rgba(247, 247, 247, 0.966); border-radius: 7%;" >
+        <form class="" >
+            <center><h1>CADASTRO</h1></center>
+            <div class="form-row">
+              <div class="form-group col-md-12">
+                <label for="email-input">Endereço de email</label>
+                <input type="email" class="form-control " id="email-input" aria-describedby="emailHelp" placeholder="Seu email">
+              </div> 
+              <div class="form-group col-md-12 ">
+                  <label for="name-input">Nome</label>
+                  <input type="email" class="form-control " id="name-input" aria-describedby="emailHelp" placeholder="Seu Nome Completo">
+              </div> 
+              <div class="form-group col-md-6 ">
+                    <label for="password-input">Senha</label>
+                    <input type="password" id="password-input" class="form-control " aria-describedby="passwordHelpInline" placeholder="Min 8 char, 1 letra Maiuscula, 1 Minuscula e 1 char especial (@ * ! #)">
+              </div>
+              <div class="form-group col-md-12 " style="margin-top: 2%;">
+                  <label for="username-input">UserName</label>
+                  <input type="email" class="form-control " id="username-input" aria-describedby="emailHelp" placeholder="Nome do Login">
+              </div>
+            </div>
+            <div style="margin-left: 5%;">
+              <a href="index2.html">Efetuar Login</a>
+            </div>
+            <button type="button" class="btn btn-success" id="btn-create-user" style="width: 100px ; margin-left: 40%; margin-top:10px">Cadastrar</button>
+
+        </form>
+    </div>            
+            
+         <!-- modal -->
+              <div class="modal fade" id="modalExemplo" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="exampleModalLabel">Cadastro Efetuado</h5>
+                      </button>
+                    </div>
+                    <div class="modal-body">
+                      <p>Parabéns! Cadastro feito com sucesso </p>
+                    </div>
+                    <div class="modal-footer">
+                      <a href="/index2.html" class="btn btn-danger" >Fechar</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="./js/create-user-service.js"></script>
+</body>
+</html>
