@@ -25,7 +25,7 @@ btnCreateUser.addEventListener('click', () => {
         .then(() => {
             localStorage.setItem('userEmail', emailInput.value);
             localStorage.setItem('userPassword', passwordInput.value);
-            window.open('/index3.html', '_self');
+            window.open('/lixo-truck-frontend/index3.html', '_self');
         }).catch(() => {
             window.alert('Erro ao cadastrar usuário')
         })
