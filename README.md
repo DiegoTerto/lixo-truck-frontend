@@ -15,3 +15,12 @@
 - JavaScript
 - Bootstrap
 - Fetch API para comunicação com o [back-end]([/guides/content/editing-an-existing-page](https://github.com/DiegoTerto/lixotruck)) da aplicação
+
+#Aprendizados
+- Construção de Layout com bootstrap
+- Github Pages para deploy
+- Integração com o back-end utilizando FetchAPI do javascript
+
+#Possíveis melhorias
+- Adicionas novas funcionalidades, novos cruds
+- Responsividade
