@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url("../img/background.png") no-repeat;
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    padding: 40px;
+}
+
+.card {
+    flex-direction: row;
+}
+
+.card-container{
+    height: 100%;
+    border-radius: 8px;
+    display: flex;
+}
+
+.nav-content {
+    width: 12%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav {
+    gap: 40px;
+}
+
+.nav-icon{
+    width: 30px;
+    height: 30px;
+}
+
+.tab-content {
+    height: 100%;
+    width: 100%;
+    border-left: 1.2px #6c757d solid;
+}
+
+.tab-pane {
+    height: 100%;
+    width: 100%;
+}
+
+.mapa-img {
+    width: 100%;
+    height: 100%;
+}
+
+.perfil-container {
+    padding: 30px;
+}
+
+.perfil-container h1 {
+    margin-bottom: 20px;
+}
+
+.btn {
+    margin-top: 10px;
+}
+
+.users-content {
+    padding: 25px;
+}

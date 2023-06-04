@@ -22,11 +22,16 @@ btnCreateUser.addEventListener('click', () => {
         "name": nameInput.value,
     })
     fetch('https://agile-castle-27628.herokuapp.com/users', fetchConfigPost)
-        .then(() => {
+        .then((response) => {
+            if (response.ok) {
+                return;
+            }
+            window.alert('Erro ao realizar cadastro, tente novamente mais tarde')
+            throw new Error('Erro ao realizar cadastro, tente novamente mais tarde')
+            
+        }).then(() => {
             localStorage.setItem('userEmail', emailInput.value);
             localStorage.setItem('userPassword', passwordInput.value);
-            window.open('/lixo-truck-frontend/index3.html', '_self');
-        }).catch(() => {
-            window.alert('Erro ao cadastrar usuário')
-        })
+            window.open('/lixo-truck-frontend/home.html', '_self');
+        });
 })
