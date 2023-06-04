@@ -7,20 +7,20 @@
     <title>Home</title>
     <link rel="stylesheet" href="/css/bootstrap.min.css"> 
     <link rel="stylesheet" href="./css/home.css">
-    <link type="image/png" sizes="32x32" rel="icon" href="./img/truck-favicon.png">
+    <link type="image/png" sizes="32x32" rel="icon" href="/lixo-truck-frontend/img/truck-favicon.png">
 </head>
 <body>
   <div class="card card-container">
     <div class="nav-content">
       <div class="nav flex-column nav" id="v-tab" role="tablist" aria-orientation="vertical">
         <a class="nav-link" badge="v-home-tab" data-toggle="pill" href="#v-home" role="tab" aria-controls="v-home" aria-selected="true">
-          <img class="nav-icon" src="./img/botao-home.png" alt="Icone de uma casa">
+          <img class="nav-icon" src="/lixo-truck-frontend/img/botao-home.png" alt="Icone de uma casa">
         </a>
         <a class="nav-link" id="v-profile-tab" data-toggle="pill" href="#v-profile" role="tab" aria-controls="v-profile" aria-selected="false">
-          <img class="nav-icon" src="./img/perfil-icon.png" alt="icone de perfil">
+          <img class="nav-icon" src="/lixo-truck-frontend/img/perfil-icon.png" alt="icone de perfil">
         </a>
         <a class="nav-link" id="v-users-tab" data-toggle="pill" href="#v-users" role="tab" aria-controls="v-users" aria-selected="false">
-          <img class="nav-icon" src="./img/users.png" alt="icone de perfil">
+          <img class="nav-icon" src="/lixo-truck-frontend/img/users.png" alt="icone de perfil">
         </a>
         <a class="nav-link" href="/lixo-truck-frontend/login.html" class="btn btn-light" role="button" aria-pressed="true">
           Sair
@@ -29,7 +29,7 @@
     </div>
     <div class="tab-content" id="v-tabContent">
       <div class="tab-pane fade show active" id="v-home" role="tabpanel" aria-labelledby="v-home-tab">
-        <img class="mapa-img" href="#v-home" src="./img/mapa-rotas.png" alt="mapa">
+        <img class="mapa-img" href="#v-home" src="/lixo-truck-frontend/img/mapa-rotas.png" alt="mapa">
       </div>
       <div class="tab-pane fade" id="v-profile" role="tabpanel" aria-labelledby="v-profile-tab">
         <div class="perfil-container" href="#v-profile">
@@ -58,7 +58,7 @@
         </div>
       </div>
       <div class="tab-pane fade" id="v-users" role="tabpanel" aria-labelledby="v-users-tab">
-        <div class="users-content" href="#v-profile">
+        <div class="users-content" href="#v-users">
           <h1>Listagem de Usuários</h1>
           <div class="table-users">
             <table class="table table-bordered table-hover table-striped rounded-4">
@@ -95,58 +95,8 @@
       </div>
     </div>
   </div>
-  <!-- <div
-    class="container"
-    style="background-color: white;border-radius: 5%;box-shadow: black 0.1em 0.1em 0.2em;"
-  >
-    <div class="col-3" style="margin-top: 30%;" >
-      <div class="nav flex-column nav" id="v-tab" role="tablist" aria-orientation="vertical">
-        <a
-          class="nav-link"
-          badge="v-home-tab"
-          data-toggle="pill"
-          href="#v-home"
-          role="tab"
-          aria-controls="v-home"
-          aria-selected="true" 
-          style="margin-left: 20%; margin-right: 0%; border-width: 0; color:green; margin-bottom: 10%;"
-        >
-          <img src="/img/botao-home.png" alt="" style="width: 70%;">
-        </a>
-        <a class="nav-link" id="v-profile-tab" data-toggle="pill" href="#v-profile" role="tab" aria-controls="v-profile" aria-selected="false" 
-        style="margin-left: 20%; margin-right: 0%; border-width: 0; color:green">
-          <img src="/img/do-utilizador.png" alt="" style="width: 70%;">
-        </a>
-        <a href="/index2.html" class="btn btn-light" role="button" aria-pressed="true" 
-          style="margin-top: 200%; margin-left: 20%;margin-bottom: 15%; color:green ">Sair</a>
-      </div>
-  </div> -->
-    <!-- <div class="col-9" style="border-radius: 5%; background-color: rgb(204, 204, 204);" >
-      <div class="tab-content" id="v-tabContent">
-        <div class="tab-pane fade show active" id="v-home" role="tabpanel" aria-labelledby="v-home-tab">
-          <img href="#v-home" src="/img/6825bdd2_1.png" alt="mapa" style="display: flex; width: 205%; border-radius: 3%;margin-left: -4%; box-shadow: black 0.1em 0.1em 0.2em">
-        </div>
-        <div class="tab-pane fade" id="v-profile" role="tabpanel" aria-labelledby="v-profile-tab">
-          <form class="" style="margin-top: 10%; margin-bottom: 10%;" href="#v-profile">
-            <h1 style="margin-left: 2%;">PERFIL</h1>
-            <div class="form-group mx-sm-3" style="margin-top: 5%;">
-              <label for="exampleInputEmail1">Endereço de email</label>
-              <p id="email-label"></p>
-            </div>
-            <div class="form-group mx-sm-3" style="margin-top: 5%;">
-                <label for="exampleInputName1">Nome</label>
-                <p id="nome-label"></p>
-            </div>
-            <div class="form-group mx-sm-3" style="margin-top: 5%;">
-                <label for="exampleInputUserName1">UserName</label>
-                <p id="username-label"></p>
-            </div>
-          </form>
-        </div>
-      </div>
-    </div> -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="./js/get-user-service.js"></script>
+    <script src="/lixo-truck-frontend/js/bootstrap.min.js"></script>
+    <script src="/lixo-truck-frontend/js/get-user-service.js"></script>
 </body>
 </html>
